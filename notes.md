@@ -63,8 +63,8 @@ nikolas@nikolas-PC:~/ros2_ws/src$ ros2 pkg create PACKAGE_NAME ARGUMENTS DEPENDE
 ```
 Examples of argument: 
 
-- if I want a python package, then use ```--build_type ament_python```
-- if I want a C++ package, then use ```--build_type ament_cmake```
+- if I want a python package, then use ```--build-type ament_python```
+- if I want a C++ package, then use ```--build-type ament_cmake```
   
 Example of dependency: 
 - if I want a python package, I need ```rclpy```, therefore ```--dependencies rclpy```
